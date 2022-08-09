@@ -16,7 +16,19 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+side_a = int (input("введите длину первой стороны "))
+side_b = int (input("введите длину второй стороны "))
+side_c = int (input("введите длину третьей стороны "))
+
+
+if side_a + side_b > side_c and side_c + side_a > side_b and side_b + side_c > side_a:
+    if side_a**2 + side_b**2 > side_c**2 or side_c**2 + side_a**2 > side_b**2 and side_b**2 + side_c**2 > side_a**2:
+        print("равнобедренный")
+    else:
+        print("треугольник существует")
+
+else:
+   print("треугольник невозможен")
 ```
 
 ---
