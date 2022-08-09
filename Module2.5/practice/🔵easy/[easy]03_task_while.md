@@ -17,10 +17,13 @@
 ### Решение задачи
 
 ```python
-a = int(input("a: "))
-b = int(input("b: "))
+a = int(input("введите число 1: "))
+b = int(input("введите число 2: "))
 
-# TODO: you code here...
+while a <= b:
+    if a % 2 == 0:
+        print(a)
+    a += 1
 ```
 
 ---
