@@ -15,7 +15,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int (input("число"))
+number = -number
+
+if number % 3 == 0 or number % 5 == 0:
+    print("Число кратно 3 или 5")
+else:
+    print("число не кратно 3 или 5")
 ```
 
 ---
