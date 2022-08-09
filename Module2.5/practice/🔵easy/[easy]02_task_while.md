@@ -15,7 +15,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+a = int(input("введите число: "))
+b = 0
+
+
+while a >= 0:
+    print(a)
+    a -=1
 ```
 
 ---
